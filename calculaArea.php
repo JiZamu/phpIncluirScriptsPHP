@@ -9,7 +9,9 @@
 	define("endl", "<br/>");
 
 	//pone a dispocicion areaCuadrado.php
-	require("areaCaudrado.php");
+	//Esta funciona funciona similar a include su diferencia es el funcionamiento con error
+	//require("areaCaudrado.php");
+	include("areaCaudrado.php");
 
 	print("Estos son los valores introducidos $valor".endl);
 	print("El area del cuadrado es: ".calculaAreaCuadrado($valor).endl);
