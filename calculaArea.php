@@ -13,6 +13,9 @@
 	//require("areaCaudrado.php");
 	include("areaCaudrado.php");
 
+	//Comprueba si ya se ha incluido un script externo de no ser asi lo incluye
+	//include_once("archivo");
+
 	print("Estos son los valores introducidos $valor".endl);
 	print("El area del cuadrado es: ".calculaAreaCuadrado($valor).endl);
 ?>
